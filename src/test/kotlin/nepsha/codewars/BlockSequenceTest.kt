@@ -30,4 +30,15 @@ class BlockSequenceTest {
         assertEquals(0, BlockSequence.getNthSubSequenceDigit(11))
         assertEquals(1, BlockSequence.getNthSubSequenceDigit(12))
     }
+
+    @Test
+    fun `calculateSubsequenceDigits`() {
+        assertEquals(1, BlockSequence.calculateSequenceDigits(1))
+        assertEquals(45, BlockSequence.calculateSequenceDigits(9))
+        assertEquals(101, BlockSequence.calculateSequenceDigits(13))
+        assertEquals(141, BlockSequence.calculateSequenceDigits(15))
+        assertEquals(9045, BlockSequence.calculateSequenceDigits(99))
+        assertEquals(9045 + 192, BlockSequence.calculateSequenceDigits(100))
+        assertEquals(9045 + 192 + 195, BlockSequence.calculateSequenceDigits(101))
+    }
 }
