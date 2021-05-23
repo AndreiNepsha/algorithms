@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.rangeextraction
+package nepsha.competitive.codewars.kyu4
 
+//https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
 fun rangeExtraction(arr: IntArray): String = arr
     .fold(listOf<Pair<Int, Int>>()) { ranges, i ->
         if (ranges.isEmpty() || i - ranges.last().second != 1) ranges + Pair(i, i)

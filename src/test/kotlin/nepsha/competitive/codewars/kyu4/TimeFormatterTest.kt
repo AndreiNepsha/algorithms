@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.timeformatter
+package nepsha.competitive.codewars.kyu4
 
+import nepsha.competitive.codewars.kyu4.TimeFormatter
 import org.junit.Test
 import kotlin.test.assertEquals
 

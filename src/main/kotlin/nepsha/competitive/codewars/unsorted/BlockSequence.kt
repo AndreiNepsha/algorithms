@@ -1,9 +1,6 @@
-package nepsha.competitive.codewars
+package nepsha.competitive.codewars.unsorted
 
-import kotlin.math.ceil
-import kotlin.math.floor
-
-// correct but not efficient solution
+// TODO correct but not efficient solution
 object BlockSequence {
     fun getNthSubSequenceDigit(n: Long): Int {
         var totalDigits = 0L

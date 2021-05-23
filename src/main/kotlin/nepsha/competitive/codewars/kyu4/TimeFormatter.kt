@@ -1,4 +1,4 @@
-package nepsha.competitive.codewars.timeformatter
+package nepsha.competitive.codewars.kyu4
 
 object TimeFormatter {
     fun formatDuration(totalSeconds: Int): String {

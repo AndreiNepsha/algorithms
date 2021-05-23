@@ -1,4 +1,4 @@
-package nepsha.competitive.codewars
+package nepsha.competitive.codewars.unsorted
 
 object MaximumSubarraySum {
     fun maxSequence(arr: List<Int>): Int {

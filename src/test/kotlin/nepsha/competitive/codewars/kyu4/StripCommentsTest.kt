@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.stripcomments
+package nepsha.competitive.codewars.kyu4
 
+import nepsha.competitive.codewars.kyu4.solution
 import org.junit.Test
 import kotlin.test.assertEquals
 

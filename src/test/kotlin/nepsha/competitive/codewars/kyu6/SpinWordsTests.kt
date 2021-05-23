@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.spinwords
+package nepsha.competitive.codewars.kyu6
 
+import nepsha.competitive.codewars.spinwords.spinWords
 import org.junit.Test
 import kotlin.test.assertEquals
 

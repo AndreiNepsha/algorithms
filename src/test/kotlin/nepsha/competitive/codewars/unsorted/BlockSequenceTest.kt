@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars
+package nepsha.competitive.codewars.unsorted
 
+import nepsha.competitive.codewars.unsorted.BlockSequence
 import org.junit.Test
 import kotlin.test.assertEquals
 

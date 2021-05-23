@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.choosebestsum
+package nepsha.competitive.codewars.kyu5
 
+import nepsha.competitive.codewars.choosebestsum.chooseBestSum
 import org.junit.Test
 import java.util.*
 import kotlin.test.assertEquals

@@ -1,5 +1,6 @@
-package nepsha.competitive.codewars.rangeextraction
+package nepsha.competitive.codewars.kyu4
 
+import nepsha.competitive.codewars.kyu4.rangeExtraction
 import org.junit.Test
 import kotlin.test.assertEquals
 
